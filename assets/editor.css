@@ -1,0 +1,10 @@
+.components-panel__body .components-button {
+	margin-bottom: 8px;
+}
+
+.oda-progress {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 10px 0;
+}
