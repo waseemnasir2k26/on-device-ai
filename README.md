@@ -10,6 +10,10 @@
 
 ---
 
+## Status
+
+Last reviewed: September 2026 · release v2026.09
+
 ## Why this is different
 
 Every other WordPress AI plugin sends your draft to OpenAI (or similar) and **bills you per token**. This one uses [**Chrome's built-in AI**](https://developer.chrome.com/docs/ai/built-in) — the Gemini Nano model that ships *inside the browser* and runs **on the writer's own machine**.
