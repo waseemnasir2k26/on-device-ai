@@ -3,6 +3,13 @@
 All notable changes to this project are documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2026.10] - 2026-10-12
+
+- on-device-ai is a public GPL-2.0-or-later WordPress plugin (v1.0.0) adding a private writing assistant to the block editor using Chrome's built-in Gemini Nano APIs, with no API key or cloud call.
+- Current state: unchanged since the v1.0.0 feature commit on 2026-05-29; the only later commit is the September 2026 docs release.
+- Reviewed October 2026: README links (Chrome built-in AI docs, skynetjoe.com) returned HTTP 200; docs and release metadata refreshed. No PHP/JS changes; plugin header left at 1.0.0.
+- Known gaps: requires desktop Chrome 138+; no automated tests, linting or CI; unsupported browsers only show a notice.
+
 ## [2026.09] - 2026-09-16
 
 - Maintenance review of on-device-ai — a WordPress plugin that adds a private writing assistant (proofread, rewrite/tone, summarize, meta description, free prompt) to the block editor using Chrome's built-in Gemini Nano APIs, so no API key and no cloud call are involved.
