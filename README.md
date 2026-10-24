@@ -1,6 +1,6 @@
-# On-Device AI — Private Writing Assistant for WordPress
+# On-Device AI - Private Writing Assistant for WordPress
 
-> AI writing help **inside the block editor** — proofread, rewrite, change tone, summarize, generate meta — powered by **Chrome's built-in AI (Gemini Nano)**. No API key. No per-token cost. No cloud. Your draft never leaves the browser.
+> AI writing help **inside the block editor** - proofread, rewrite, change tone, summarize, generate meta - powered by **Chrome's built-in AI (Gemini Nano)**. No API key. No per-token cost. No cloud. Your draft never leaves the browser.
 
 [![License: GPL v2+](https://img.shields.io/badge/License-GPLv2%2B-blue.svg)](LICENSE)
 ![WordPress](https://img.shields.io/badge/WordPress-6.3%2B-21759B?logo=wordpress&logoColor=white)
@@ -10,32 +10,32 @@
 
 ---
 
+**For you if** you write in the WordPress block editor on desktop Chrome and do not want drafts going to a third-party API.
+
 ## Status
 
 Last reviewed: October 2026 · release v2026.10
 
 ## Why this is different
 
-Every other WordPress AI plugin sends your draft to OpenAI (or similar) and **bills you per token**. This one uses [**Chrome's built-in AI**](https://developer.chrome.com/docs/ai/built-in) — the Gemini Nano model that ships *inside the browser* and runs **on the writer's own machine**.
+Most WordPress AI plugins send your draft to a cloud model and bill you per token. This one uses [**Chrome's built-in AI**](https://developer.chrome.com/docs/ai/built-in) - the Gemini Nano model that ships *inside the browser* and runs **on the writer's own machine**.
 
-- 🔑 **No API key** to paste or leak
-- 💸 **$0 forever** — no metered API, no subscription, no caps
-- 🔒 **Private by design** — unpublished drafts / client content stay on-device
-- ✈️ **Works offline** once the model is downloaded
-
-> At time of writing, WordPress AI plugins all require a paid cloud key. This is built to be the first that doesn't.
+- **No API key** to paste or leak
+- **$0 forever** - no metered API, no subscription, no caps
+- **Private by design** - unpublished drafts / client content stay on-device
+- **Works offline** once the model is downloaded
 
 ## What it does
 
 | Tool | Action |
 |---|---|
 | **Proofread** | Fix grammar + spelling on the selected block |
-| **Rewrite / tone** | Improve the selected block — keep tone, or go more formal / casual |
+| **Rewrite / tone** | Improve the selected block - keep tone, or go more formal / casual |
 | **Summarize** | TL;DR of the whole post |
 | **Meta description** | Generate an SEO excerpt and save it to the post |
 | **Free prompt** | Ask the on-device model anything about your draft |
 
-Every result opens in a **review panel first** — nothing changes without your confirmation.
+Every result opens in a **review panel first** - nothing changes without your confirmation.
 
 ## How it works
 
@@ -47,9 +47,15 @@ Block editor  →  window built-in AI (Proofreader / Rewriter / Summarizer / Lan
 
 No build step: the editor plugin is plain JS over the global `wp.*` packages + the browser's built-in AI APIs.
 
+## Limits
+
+- Needs desktop Chrome 138+ (or Chromium-based Edge) with built-in AI available; the first use downloads the model.
+- Output quality is that of a small on-device model. Always read the result in the review panel.
+- Not tested on other browsers. Version 1.0.0.
+
 ## Requirements
 
-Desktop **Chrome 138+** (or Chromium-based Edge) with built-in AI enabled; a one-time on-device model download on first use. On unsupported browsers the panel shows a friendly notice — WordPress is otherwise unaffected.
+Desktop **Chrome 138+** (or Chromium-based Edge) with built-in AI enabled; a one-time on-device model download on first use. On unsupported browsers the panel shows a friendly notice - WordPress is otherwise unaffected.
 
 ## Install
 
@@ -77,10 +83,8 @@ on-device-ai/
 
 GPL-2.0-or-later. Built by [SkynetLabs](https://www.skynetjoe.com). PRs welcome.
 
-## Work with SkynetLabs
+---
 
-Built by [Waseem Nasir](https://www.skynetjoe.com/?utm_source=github&utm_medium=readme&utm_campaign=on-device-ai) at SkynetLabs — n8n + AI automation for small businesses.
+Built by SkynetLabs. Contact: info@skynetjoe.com
 
-- Hire on Fiverr: https://www.fiverr.com/agencies/skynetjoellc
-- Hire on Upwork: https://www.upwork.com/freelancers/muhammadwaseemnasir
-- Book a free call: https://calendly.com/skynetlabs/schedule-a-free-consultation
+Need this wired into your business? SkynetLabs builds voice agents, n8n back offices and sites that convert → https://skynetjoe.com
