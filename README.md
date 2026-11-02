@@ -85,6 +85,6 @@ GPL-2.0-or-later. Built by [SkynetLabs](https://www.skynetjoe.com). PRs welcome.
 
 ---
 
-Built by SkynetLabs. Contact: info@skynetjoe.com
+Built by SkynetLabs. Contact: waseem@skynetjoe.com
 
 Need this wired into your business? SkynetLabs builds voice agents, n8n back offices and sites that convert → https://skynetjoe.com
